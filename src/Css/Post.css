@@ -1,6 +1,12 @@
 .offerte {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;          /* va su più righe se necessario */
+  justify-content: center;  /* centra le card nello spazio disponibile */
+  gap: 20px;                /* spazio uniforme tra le card */
+  margin-top: 5%;
+}
+
+.offerte .card {
+  flex: 1 1 250px;          /* larghezza minima 250px, si adatta allo schermo */
+  max-width: 300px;         /* impedisce che le card diventino troppo grandi */
 }
