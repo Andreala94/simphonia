@@ -1,12 +1,19 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import '../Css/Post.css';
+import ServiziOfferti from './ServiziOfferti.jsx';
+
+
+
+
 
 
 function Post() {
     return (
-        <>           
-
+        <>
+            <div>
+                <h2 className='text-center mt-5 mb-4'>Scopri le nostre offerte!</h2>
+             </div>
 
             <div className='offerte' >
                 <Card>
@@ -54,11 +61,15 @@ function Post() {
                 </Card>
 
             </div>
-
             <div>
-                <h2 className='text-center mt-5 mb-4'>Scopri le nostre offerte!</h2>
-                <h5 className='text-center mt-5 mb-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum excepturi veniam facilis vitae mollitia laboriosam impedit voluptas numquam accusantium consectetur! Fuga architecto iste vero, consequatur eaque ex atque porro, dolorem beatae unde sint? Rerum cum excepturi corporis voluptates ab ullam, deserunt sequi. Ex libero minima iste autem vel dolore maiores.</h5>
+                <h2 className='text-center mt-5 mb-4'>Ecco i nostri servizi!</h2>
+                <ServiziOfferti />
             </div>
+           <div>
+              <h3 className='text-center mt-5 mb-4'>E non è tutto...</h3>
+              <h3 className='text-center mt-5 mb-4'>Vienici a trovare nel nostro punto vendita a Martina Franca in via Leone XIII</h3>
+           </div>
+
         </>
     );
 }

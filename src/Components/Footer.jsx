@@ -1,4 +1,3 @@
-import  react from "react";
 import '../Css/Footer.css';
 
 function Footer() {
