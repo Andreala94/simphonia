@@ -4,10 +4,6 @@ import '../Css/Post.css';
 import ServiziOfferti from './ServiziOfferti.jsx';
 
 
-
-
-
-
 function Post() {
     return (
         <>
