@@ -1,6 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import '../Css/ServiziOfferti.css';
 
 import LogoTim from '../Assets/logotim.jpg';
 import LogoVodafone from '../Assets/vodafone.jpg';
@@ -36,7 +37,7 @@ function ServiziOfferti() {
 
       <div className="container mt-4 ">
         <Slider {...settings}>
-          <div>
+          <div className="smartphone">
             <img
               src={LogoTim}
               alt="Foto 1"
@@ -50,7 +51,7 @@ function ServiziOfferti() {
             />
           </div>
 
-          <div>
+          <div className="smartphone">
             <img
               src={LogoVodafone}
               alt="Foto 2"
@@ -65,7 +66,7 @@ function ServiziOfferti() {
             />
           </div>
 
-           <div>
+           <div className="smartphone">
             <img
               src={LogoEnel}
               alt="Foto 3"
@@ -79,7 +80,7 @@ function ServiziOfferti() {
               }}
             />
           </div>
-           <div>
+           <div className="smartphone">
             <img
               src={logoKena}
               alt="Foto 4"
@@ -94,7 +95,7 @@ function ServiziOfferti() {
             />
           </div>
 
-         <div>
+         <div className="smartphone">
             <img
               src={LogoFastweb}
               alt="Foto 5"
@@ -108,11 +109,11 @@ function ServiziOfferti() {
               }}
             />
           </div>
-          <div>
-            <img
+          <div className="smartphone">
+            <img 
               src={LogoSegnoverde}
               alt="Foto 6"
-              className="img-fluid "
+              className="img-fluid"
               style={{
                 height: "100px",
                 width: "50%",
